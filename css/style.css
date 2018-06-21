@@ -1,0 +1,102 @@
+html,body{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family:Helvetica,Arial,sans-serif;
+	background-color: #007FC0;
+}
+.container{
+	width: 990px;
+	margin: 0 auto;
+	background-color: white;
+	padding: 5px;
+}
+.bordered{
+	border: 1px solid #ccc;
+}
+	header,footer
+	{
+		background-color:#7ECBF3;;
+		border:1px solid black;
+	}           
+
+footer{
+	padding: 10px;
+	border: 1px solid black;
+}                         
+
+header nav{
+	float: right;
+}
+
+header nav li{
+	display: inline;
+	font-size: 12px;
+	padding-right: 10px;
+}
+
+a{
+  color: #007FC0;
+}
+
+#main{
+	border: 1px solid #555;
+	border-radius: 5px;
+	color: #202020;
+	10px;margin: 10px 0px;
+	padding: 5px;
+	}
+
+#results{
+	padding: 2px;
+	width: 300px;
+	/*display: block/inline/inline-block*/
+	display: inline-block;
+	border: 1px solid #ccc;
+}
+
+.result{
+	margin: 5px;
+	border: 1px solid #999;
+}
+.result .title{
+	font-weight: bold;
+}
+
+.login-form{
+	display: inline-block;
+	vertical-align: top;
+	width: 400px;
+	padding: 2px;
+	/*position: absolute;
+	right: 5px;
+	right: 5px; 
+	change the loging and other lables are that code used*/
+}
+
+.login-form label{
+	font-weight: bold;
+	width: 120px;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.login-form input[type=text]
+.login-form input[type=password]{
+	width: 150px;
+}
+
+.login-form input[type=submit],
+.login-form input[type=reset]{
+	background-color:#007FC0;
+	color: #fff;
+	border-radius: 10px;
+	padding: 3px;
+	margin-top: 5px;
+	width: 75px;
+}
+
+#main input[type=reset]{
+	background-color: gray;
+}
